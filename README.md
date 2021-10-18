@@ -40,7 +40,10 @@ Default output format [None]: json
 
 ## References
 
-
 [AWS CLI - User Guide](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html)
 
 [AWS CLI - Configure](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-quickstart.html)
+
+[Amazon S3 Bucket Lifecycle Operations](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/aws-cli/bash-linux/s3/bucket-lifecycle-operations)
+
+[Change Amazon EC2 Instance Type](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/aws-cli/bash-linux/ec2/change-ec2-instance-type)
