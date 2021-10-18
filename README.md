@@ -27,7 +27,6 @@ which aws
 
 ```
 aws configure
-
 ```
 
 **ATTENTION:** <b style="color:red;">ONLY SAMPLE</b>
