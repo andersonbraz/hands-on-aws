@@ -53,7 +53,7 @@ aws dynamodb create-table \
         AttributeName=Artist,KeyType=HASH \
         AttributeName=SongTitle,KeyType=RANGE \
 --provisioned-throughput \
-        ReadCapacityUnits=10,WriteCapacityUnits=5
+        ReadCapacityUnits=10,WriteCapacityUnits=10
 ```
 
 ## References
@@ -65,3 +65,5 @@ aws dynamodb create-table \
 [Amazon S3 Bucket Lifecycle Operations](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/aws-cli/bash-linux/s3/bucket-lifecycle-operations)
 
 [Change Amazon EC2 Instance Type](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/aws-cli/bash-linux/ec2/change-ec2-instance-type)
+
+[AWS Vault](https://github.com/99designs/aws-vault)
