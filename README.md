@@ -38,6 +38,24 @@ Default region name [None]: us-west-2
 Default output format [None]: json
 ```
 
+
+### 4. AWS CLI - DynamoDB
+
+#### 4. Create Table
+
+```shell
+aws dynamodb create-table \
+    --table-name Music \
+    --attribute-definitions \
+        AttributeName=Artist,AttributeType=S \
+        AttributeName=SongTitle,AttributeType=S \
+    --key-schema \
+        AttributeName=Artist,KeyType=HASH \
+        AttributeName=SongTitle,KeyType=RANGE \
+--provisioned-throughput \
+        ReadCapacityUnits=10,WriteCapacityUnits=5
+```
+
 ## References
 
 [AWS CLI - User Guide](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html)
